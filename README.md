@@ -12,4 +12,5 @@ I wanted to implement Logistic Regression in the form of neural network and then
 I used a [dataset](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data) from an old Kaggle competition where teams were supposed to develop a model to predict cat or dog. 
 
 ### Notes:
-* The original dataset consisted of 25000 training images and 12500 test images. To simplify things and run on a local Jupyter notebook, I cut it down to 2000 and 1000 respectively. This made the code a bit sloppy, but the comments should explain it clearly. 
+* The original dataset consisted of 25000 training images and 12500 test images. To simplify things and run on a local Jupyter notebook, I cut it down to 2000 (1000 cats, 1000 dogs) and 1000 (500 cats, 500 dogs) respectively. This made the code a bit sloppy, but the comments should explain it clearly. 
+* The images were fairly high resolution, but all different. In order to create uniformity, they were reformatted to each be 128x128px. 
